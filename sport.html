@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Disney+</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo.png" class="brand-logo" alt="">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="tv.html">TV</a></li>
+            <li class="nav-items"><a href="index.html">movies</a></li>
+            <li class="nav-items"><a href="sport.html">sports</a></li>
+            <li class="nav-items"><a href="prem.html">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/sp1.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Highlights</h2>
+                    
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card" onclick="navigateToMulanPage()">
+                <img src="images/sp2.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Ind vs Pak</h2>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
